@@ -111,6 +111,8 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'insertTable',
 			'|',
+			'imageUpload',
+			'|',
 			'undo',
 			'redo'
 		]
