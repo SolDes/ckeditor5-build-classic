@@ -1,6 +1,27 @@
 CKEditor 5 classic editor build
 ========================================
 
+## Install packages
+- Install packages: `npm install`
+
+## CKEditor custom build
+Reference: [https://ckeditor.com/docs/ckeditor5/latest/builds/guides/development/custom-builds.html](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/development/custom-builds.html)
+- Make changes to package
+- Re-build package: `yarn run build`
+- Ensure completion with no errors
+- Commit all build changes
+
+## Testing custom build
+- Copy `build` folder
+- Paste in `node_modules/@soldes/ckeditor5-build-classic`
+## NPM publish process
+- Login: `npm login`
+  - Username and password on LastPass at `Shared-SEDemo/npmjs.com`
+- Make changes to package
+  - Make sure to increment version in `package.json`
+- Publish: `npm publish --access public`
+## CKEditor documentation
+
 [![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-classic.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-build-classic)
 [![Build Status](https://travis-ci.org/ckeditor/ckeditor5-build-classic.svg?branch=master)](https://travis-ci.org/ckeditor/ckeditor5-build-classic)
 <br>
